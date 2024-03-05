@@ -7,3 +7,10 @@ A nota for menor que 6 ou se as presencas
 forem menor do que 75 e aprovado 
 caso contrário.
 '''
+
+nota = int(input("Digite um nota:"))
+presença = int(input("Digite um presença:"))
+if nota > 6 and presença >= 75:
+    print("Aprovado")
+else:
+     print("Reprovado")
